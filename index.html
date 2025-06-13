@@ -2,15 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banca Móvil</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="header">
       <div class="logo">
-        <img src="/logo.svg" alt="Banca Móvil Logo" />
         <h1>Banca Móvil</h1>
       </div>
       <nav class="nav">
@@ -22,6 +21,8 @@
         </ul>
       </nav>
     </header>
+
+    <!-- Main Content -->
     <main class="main-content">
       <!-- Hero Section -->
       <section id="home" class="hero">
@@ -30,10 +31,10 @@
           <p class="hero-description">
             Gestione sus finanzas de manera rápida, segura y desde cualquier lugar.
           </p>
-          <button class="cta-button">Comenzar</button>
-        </div>
-        <div class="hero-image">
-          <img src="/images/hero-image.svg" alt="Gestión financiera" />
+          <div class="hero-buttons">
+            <button class="cta-button">Comenzar</button>
+            <button class="secondary-button">Más Información</button>
+          </div>
         </div>
       </section>
 
@@ -42,31 +43,18 @@
         <h2 class="section-title">Nuestros Servicios</h2>
         <div class="services-list">
           <div class="service-item">
-            <img src="/images/saldo-icon.svg" alt="Consulta de saldos" />
             <h3>Consulta de saldos</h3>
             <p>Revise sus saldos en tiempo real.</p>
           </div>
           <div class="service-item">
-            <img src="/images/transfer-icon.svg" alt="Transferencias bancarias" />
             <h3>Transferencias bancarias</h3>
             <p>Transfiera dinero de forma rápida y segura.</p>
           </div>
           <div class="service-item">
-            <img src="/images/pago-icon.svg" alt="Pago de servicios" />
             <h3>Pago de servicios</h3>
             <p>Pague sus servicios desde la comodidad de su hogar.</p>
           </div>
         </div>
-      </section>
-
-      <!-- About Section -->
-      <section id="about" class="about">
-        <h2 class="section-title">Sobre Nosotros</h2>
-        <p>
-          En Banca Móvil, nos dedicamos a ofrecer soluciones financieras innovadoras
-          para facilitar la vida de nuestros clientes. Nuestra plataforma es segura,
-          confiable y fácil de usar.
-        </p>
       </section>
     </main>
 
@@ -74,13 +62,7 @@
     <footer class="footer">
       <div class="footer-content">
         <p>&copy; 2025 Banca Móvil. Todos los derechos reservados.</p>
-        <ul class="social-links">
-          <li><a href="#"><img src="/images/facebook-icon.svg" alt="Facebook" /></a></li>
-          <li><a href="#"><img src="/images/twitter-icon.svg" alt="Twitter" /></a></li>
-          <li><a href="#"><img src="/images/linkedin-icon.svg" alt="LinkedIn" /></a></li>
-        </ul>
       </div>
     </footer>
-    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
